@@ -1,5 +1,5 @@
 let numeroSecretoNaLista = [];
-let origemDoNumero = 50;
+let origemDoNumero = 20;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -10,7 +10,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'jogo do god of war');
-    exibirTextoNaTela('p', 'kratos esta no modo serio, escolha um numero de 1 a 50 o mais rapido possivel');
+    exibirTextoNaTela('p', 'kratos esta no modo serio, escolha um numero de 1 a 20 o mais rapido possivel');
 }
 exibirMensagemInicial()
 
